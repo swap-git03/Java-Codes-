@@ -1,4 +1,4 @@
-// package ifelse;
+// Can Vote or not
 import java.util.Scanner;
 
 public class ifelse {
@@ -17,3 +17,22 @@ public class ifelse {
 	}
 }
 
+// Even ODD
+package demo;
+import java.util.Scanner;
+public class ifelse {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+	    System.out.println("Enter number:");
+		int num = sc.nextInt();
+		
+		if (num%2==0) {
+			System.out.println("Num is even");
+		} else {
+			System.out.println("Num is odd");
+		}
+	}
+
+}
