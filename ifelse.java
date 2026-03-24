@@ -36,3 +36,25 @@ public class ifelse {
 	}
  
 }
+
+// To print the bigger number
+import java.util.Scanner;
+public class ifelse {
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+	
+		 System.out.println("Enter first number:");
+	        int a = sc.nextInt();
+		
+		System.out.println("ENter sec number");
+			int b = sc.nextInt();
+
+		
+		if(a > b) {
+			System.out.println(a + " a is bigger than b " + b);
+		} else {
+			System.out.println(b + " b is bigger than a " + a);
+
+		}
+	}
+}
