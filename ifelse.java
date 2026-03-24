@@ -34,5 +34,5 @@ public class ifelse {
 			System.out.println("Num is odd");
 		}
 	}
-
+ 
 }
