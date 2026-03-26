@@ -67,3 +67,29 @@ public class Main {
         }
     }
 }
+
+// While loops
+// Print numbers from 1 to 10 using while loop.
+public class loops {
+    public static void main (String[] args) {
+        int i = 0;
+        while (i < 10) {
+           i = i + 1;
+           System.out.println(i);
+        }
+    }
+}
+
+// Print even numbers from 1 to 20 using while loop.
+public class Main {
+    public static void main (String[] args) {
+        int i = 0;
+        int even_nums = 0;
+        while ( i<11){
+            even_nums = i * 2;
+            i = i + 1;
+            System.out.println(even_nums);
+        }
+    }
+}
+
