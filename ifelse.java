@@ -59,19 +59,3 @@ public class ifelse {
 	}
 }
 
-// Print multiplication table of a number
-import java.util.Scanner;
-public class Main {
-    public static void main (String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number");
-
-        int num = sc.nextInt();
-        int mult = 1;
-        for (int i=1; i<=10; i++){
-            mult = i * num;
-            System.out.println("--------------");
-            System.out.println(mult);
-        }
-    }
-}
