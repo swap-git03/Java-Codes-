@@ -66,3 +66,28 @@ class Main {
         printNums(n);
         }
 }
+
+// Create a method that returns sum of two numbers.
+import java.util.Scanner;
+class Main {
+    static int sum(int n1, int n2) {
+       if (n1 == 0 && n2 == 0) {
+           return 0;
+       } else {
+           int sum = n1 + n2;
+           return sum;
+       }
+}
+
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter num 1");
+        int n1 = sc.nextInt();
+        
+        System.out.println("ENter num 2");
+        int n2 = sc.nextInt();
+        
+        int res = sum(n1, n2);
+        System.out.println(res);
+    }
+}
